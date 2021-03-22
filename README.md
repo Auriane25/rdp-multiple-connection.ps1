@@ -1,1 +1,1 @@
-# rdp-multiple-connection.ps1
+# rdp-multiple-connection
