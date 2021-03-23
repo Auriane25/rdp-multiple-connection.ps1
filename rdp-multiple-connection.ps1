@@ -1,4 +1,4 @@
-function Connect-RDP {
+function global: Connect-RDP {
  
   param (
     [Parameter(Mandatory=$true)]
