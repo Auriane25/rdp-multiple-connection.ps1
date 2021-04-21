@@ -4,7 +4,8 @@ Le but principal de ce script powershell est de permettre de se connecter sur pl
 
 ## LE SCRIPT 
 
-    ```$servers=Get-Content ".\serverslist.txt"
+    ```
+    $servers=Get-Content ".\serverslist.txt"
 
     foreach($server in $servers){
 
@@ -18,6 +19,7 @@ Le but principal de ce script powershell est de permettre de se connecter sur pl
     
         cmdkey /delete:$server
     }
+    
     ```
     
     
