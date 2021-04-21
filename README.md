@@ -4,23 +4,23 @@ Le but principal de ce script powershell est de permettre de se connecter sur pl
 
 ## 🏁🌟 LE SCRIPT 🌟🏁
 
-   
-    ```powershell
-    $servers=Get-Content ".\serverslist.txt"
 
-    foreach($server in $servers){
+```powershell
+$servers=Get-Content ".\serverslist.txt"
 
-        cmdkey /generic:$server /user:"\UserName" /pass:"Password"
+foreach($server in $servers){
+
+     cmdkey /generic:$server /user:"\UserName" /pass:"Password"
     
-        mstsc /v: $server
+     mstsc /v: $server
     
-        #to bypass the security alerts or certificate errors that has to be done manually
+     #to bypass the security alerts or certificate errors that has to be done manually
     
-        sleep 5
+     sleep 5
     
-        cmdkey /delete:$server
+     cmdkey /delete:$server
     }
-    ```
+```
     
 ## 🖥️ CREATION DU FICHIER SERVEURSLIST.TXT 🖥️
 
