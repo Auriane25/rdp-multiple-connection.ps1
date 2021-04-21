@@ -4,6 +4,7 @@ Le but principal de ce script powershell est de permettre de se connecter sur pl
 
 ## 🏁🌟 LE SCRIPT 🌟🏁
 
+   
     ```powershell
     $servers=Get-Content ".\serverslist.txt"
 
@@ -19,7 +20,6 @@ Le but principal de ce script powershell est de permettre de se connecter sur pl
     
         cmdkey /delete:$server
     }
-    
     ```
     
 ## 🖥️ CREATION DU FICHIER SERVEURSLIST.TXT 🖥️
