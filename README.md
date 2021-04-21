@@ -2,9 +2,9 @@
 
 Le but principal de ce script powershell est de permettre de se connecter sur plusieurs serveurs avec RDP. 
 
-## LE SCRIPT 
+## 🏁🌟 LE SCRIPT 🌟🏁
 
-    ```
+    ``` python
     $servers=Get-Content ".\serverslist.txt"
 
     foreach($server in $servers){
@@ -22,5 +22,5 @@ Le but principal de ce script powershell est de permettre de se connecter sur pl
     
     ```
     
-    
+## 🖥️ CREATION DU FICHIER SERVEURSLIST.TXT 🖥️
     
