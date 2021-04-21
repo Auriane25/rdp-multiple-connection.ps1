@@ -21,6 +21,9 @@ foreach($server in $servers){
      cmdkey /delete:$server
     }
 ```
+
+QUELQUES PRECISIONS CONCERNANT LE SCRIPT
+    
     
 ## 🖥️ CREATION DU FICHIER SERVEURSLIST.TXT 🖥️
 
