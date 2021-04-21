@@ -4,7 +4,7 @@ Le but principal de ce script powershell est de permettre de se connecter sur pl
 
 ## 🏁🌟 LE SCRIPT 🌟🏁
 
-    ``` python
+    ```powershell
     $servers=Get-Content ".\serverslist.txt"
 
     foreach($server in $servers){
